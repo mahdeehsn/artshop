@@ -6,7 +6,7 @@ const client = createClient({
   title: "artshop",
   apiVersion: "2023-11-21",
   token: process.env.NEXT_PUBLIC_SANITY_API_TOKEN,
-  useCdn: true,
+  useCdn: false,
 });
 
 // Function to get orders by email and sort by the latest
